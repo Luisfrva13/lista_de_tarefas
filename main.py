@@ -1,5 +1,5 @@
 # CRIAR UM PROGRAMA QUE FAÇA UMA LISTA DE TAREFAS PARA O USUÁRIO
-
+import os
 # lista vazia
 
 tarefas = []
@@ -18,6 +18,9 @@ while True:
         continue
     else:
         break
+# Limpar console
+
+os.system('cls')
 
 # imrpimir a lista
 
